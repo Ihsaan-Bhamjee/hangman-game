@@ -1,27 +1,42 @@
-# React + TypeScript + Vite
+# Hangman Game Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Hangman Game Clone, a React TypeScript project created with Vite. This project is a modern and interactive version of the classic Hangman game, providing an enjoyable gaming experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Interactive Hangman game with a modern user interface.
+- TypeScript for type-safe development.
+- Developed using Vite for a fast and efficient development experience.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Prerequisites
 
-- Configure the top-level `parserOptions` property like this:
+Make sure you have Node.js and npm installed on your machine.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+### Installation
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/hangman-game-clone.git
+
+2. Change into the project directory:
+
+   ```bash
+   cd hangman-game-clone
+
+### Usage
+Start the development server:
+
+   ```bash
+   npm run dev
+
+This will start the development server, and you can access the application at http://localhost:3000.
+Play the Hangman game and enjoy!
+
+
+### Technologies Used
+React
+TypeScript
+Vite
